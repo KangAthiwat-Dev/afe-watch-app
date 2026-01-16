@@ -243,7 +243,6 @@ class BackgroundService : Service(), ConnectionObserver {
                 // ดึงค่า r1, r2 มาเตรียมไว้คำนวณสถานะ
 //                val r1 = pref.getR1().toDoubleOrNull() ?: 0.0
 //                val r2 = pref.getR2().toDoubleOrNull() ?: 0.0
-//                test
 
                 if (standbymain.curLat != 0.0 && standbymain.curLong != 0.0) {
                     standbymain.distance = (
